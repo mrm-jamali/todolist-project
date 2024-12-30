@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+   
+    background-color: rgb(246, 216, 47);
+    border:1px solid rgb(190, 190, 88);
+    border-radius: 5px;
+    margin:0 5px;
+    padding:7px 10px;
+    width: 48px;
+    
+cursor: pointer;}
+
+.button1{
+    width: 82px !important;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    background-color: rgb(246, 216, 47);
+    border:1px solid rgb(190, 190, 88);
+    border-radius: 5px;
+    margin:0 5px;
+
+}
+
+ 
+
+.container{
+width: 85%;
+height: auto;
+/* display: flex;
+flex-direction: column; */
+margin: 30px auto;
+/* background-color: yellow; */
+padding: 30px ;
+border-radius: 10px;
+box-shadow:0 8px 32px 0 rgba(31, 38,135,0.3)
+}
+div .inside-container{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+}
+div p{
+    text-align: center;
+    font-size: 35px;
+}
+div .inside-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+
+}
+div .inside-container .inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;  
+}
+div .inside-container  .inputs input{
+  width:45%; 
+  padding: 5px; 
+  border: 1px solid rgb(223, 223, 22);
+  border-radius: 5px;
+}
+ input:focus {
+   
+    outline:none !important;
+    border-width: 2px !important;
+
+}
+div .inside-container .inputs button{
+    padding:7px 10px;
+    background-color: yellow;
+    border:1px solid yellow;
+    border-radius: 5px;
+}
+.inside-container .buttons- {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.container-two{
+    width: 85%;
+height: auto;
+/* display: flex;
+flex-direction: column; */
+margin: 0px auto;
+/* background-color: yellow; */
+padding: 30px ;
+border-radius: 10px;
+box-shadow:0 8px 32px 0 rgba(31, 38,135,0.3)
+}
+.table1{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+thead{
+    background-color: rgb(206, 211, 211);
+}
+thead th{
+    padding: 10px;
+}
+thead th:first-child{
+    border-top-left-radius:10px ;
+}
+thead th:last-child{
+    border-top-right-radius:10px ;
+}
+tbody td{
+    padding: 5px 10px;
+    text-align: center;
+    width: 25%;
+}
+tbody td button:nth-child(1) {
+    background-color: rgb(246, 216, 47);
+}
+tbody td button:nth-child(2) {
+    background-color: green;
+}
+tbody td button:nth-child(3) {
+    background-color: red;
+}
+#alert-massage{
+    width: 80%;
+    height: 40px;
+    /* background-color: bisque; */
+    margin:0px auto;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.alert{
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+   padding: 5px;
+   font-size: 15px;
+}
+.alert-error {
+    background-color: red;
+}
+.alert-success {
+    background-color: green;
+}
+#edit{
+    display: none;
+}

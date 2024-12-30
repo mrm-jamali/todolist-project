@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inside-container">
+            <p>Todo app|design</p>
+            <div class="inputs">
+                <input type="text" id="task-input" placeholder="add todo...">
+                <input type="date" id="data-input" placeholder="mm/dd/yyy">
+                <button id="add">add</button>
+                <button id="edit">edit</button>
+            </div>
+            <div class="buttons-">
+                <div class="left-buttons">
+                    <button class="fiter-todos button1" data-filter="all">all</button>
+                    <button class="fiter-todos button1" data-filter="pending">pending</button>
+                    <button class="fiter-todos button1" data-filter="complated">completed</button>
+                </div>
+                <button style="background-color: red;" class="button1"  id="delete-All">delete all</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="alert-massage">
+       
+    </div>
+    <div class="container-two">
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>task</th>
+                    <th>date</th>
+                    <th>status</th>
+                    <th>action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>text</td>
+                    <td>date</td>
+                    <td>pending</td>
+                    <td>
+                        <button>edit</button>
+                        <button>do</button>
+                        <button>delete</button>
+                    </td>
+                </tr> -->
+
+            </tbody>
+        </table>
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
